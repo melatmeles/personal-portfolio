@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6368978a26.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact </a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer/Baker</p>
+                <h1>Hi, I'm <span>Melat</span><br>Meles from Kenya</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------about-------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello, I'm <b>Melat</b>, a passionate Website Developer and Baker with a background in Business and Information Technology training and a self-taught Baker. I specialize in web/app development and baking, and have a deep commitment to being a unique creative. Over the past few weeks, I've had the priviledge of working with a creative agency, BrandMagma under Canaan East Company as a web development intern. I also happened to start my own online-at-home baking business, Mel's Patisseries, a few years ago.<br>
+
+                    Outside of my professional life, I'm an avid art enthusiast and enjoy various genres of music, mostly Afro and R&B. My goal is to become a better than I am today and grow in all aspects of my professions. If you'd like to get in touch, feel free to connect with me on Instagram @mels.patisseries or reach out via email at melatmeles89@gmail.com.
+                    
+                    I'm excited to share my journey with you and explore opportunities for collaboration. Thanks for visiting my portfolio!
+                    </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Web/App Development</li>
+                        <li><span>Baking</span><br>Baking Pastries and Desserts</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 -  current</span><br>Web Developer Inter at BrandMagma(Canaan East Company)</li>
+                        <li><span>2021 - 2023</span><br>Online Baking Business "Mel's Patisseries"</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021 - current</span><br>BBIT from Mt.Kenya University</li>
+                        <li><span>2015 - 2021</span><br>Baking, self-taught</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+<!-- ---------services------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> Web Development</h2>
+                <p>Through a combination of coding languages, creativity, and problem-solving skills,
+                     I, a web deveoper/designer build the digital landscape we navigate every day.
+                      I create interactive websites, engaging user interfaces, and seamless web
+                       applications. With an understanding of HTML, CSS, JavaScript, and other 
+                       programming languages, I turn ideas into functional,
+                        aesthetically pleasing online experiences. 
+                         <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-cake-candles"></i>
+                <h2> Baking</h2>
+                <p>As a baker in the digital world, I craft delectable 
+                    delights that are just a click away. With a mouthwatering assortment of pastries,
+                     cakes, and confections, I try to tantalize taste buds with their delicious 
+                     offerings. Whether it's a celebration, a special occasion, or a simple craving, 
+                I deliver freshly baked goods to your doorstep.Being an Online baker I combine the art
+                 of baking with the convenience of e-commerce, ensuring that every bite is a delightful
+                  experience enjoyed from the comfort of home.</br>
+                  <a href="#">Learn more</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<!-- -------------portfolio--------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Mel's Patisseries</h3>
+                    <p>Creates excuisite desserts that are pure indulgence. From velvety cakes to delicate cinnamon rolls,  Mel's Patisseries elevates the sweet experience, leaving a lasting impression on all who savor their exquisite creations.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects to the talented people around the world.
+                        Downlaod it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects to the talented people around the world.
+                        Downlaod it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- -----------contact-------- -->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>melatmeles89@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0799458348</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Melat_Meles_CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"></div>
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Melat. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyijCM5dRltvs7kdXaz9ekrwJcuC1fc2tsoj3M-jd1duuWcNbvjwyFIfG-w-jfVJUetmw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+    })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
